@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.dis {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.back1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(52, 199, 199);
+}
+.back2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(153, 184, 39);
+}
+.back3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(70, 177, 48);
+}
+.back4 {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(48, 85, 177);
+}
+.back5 {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(119, 48, 177);
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+  margin: 10px;
+}
+.btn:hover {
+  background-color: bisque;
+  cursor: pointer;
+}

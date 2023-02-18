@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 45px;
+  color: blueviolet;
+  margin-top: 10px;
+}
+.mar {
+  margin: 10px;
+}
+h2 {
+  font-size: 25px;
+  color: rgb(61, 61, 101);
+}
+input {
+  padding: 10px;
+  outline: none;
+}
+.sm-input {
+  width: 130px;
+}
+span {
+  font-size: 20px;
+}
+button {
+  font-size: 18px;
+  width: 150px;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(20, 136, 194);
+  border: 1px solid gainsboro;
+  cursor: pointer;
+}
+button:hover {
+  border: 1px solid gray;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.block {
+  display: block;
+}
+.center {
+  text-align: center;
+}
+.img {
+  margin: 0px 20px;
+  width: 100%;
+}
+.form {
+  width: 100%;
+  margin: 0px 20px;
+  background-color: gainsboro;
+}
