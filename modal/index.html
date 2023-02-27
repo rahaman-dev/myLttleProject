@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="form" class="form">
+        <h1 class="fomr-heading">Login Form</h1>
+        <p>Email</p>
+        <input
+          type="email"
+          class="input"
+          id="emailFled"
+          placeholder="Enter Your Email"
+        />
+
+        <p>Password</p>
+        <input
+          type="password"
+          id="passwordField"
+          class="input inputFiledPassword"
+          placeholder="Enter Your Password"
+        />
+        <i class="fa-solid fa-eye" id="eye"></i>
+        <button class="subBtn" id="subBtn">Submit</button>
+      </div>
+
+      <div class="modal" id="modal">
+        <h1>Your Information is Successfully Submitted</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+          repellat tempora assumenda consequatur maxime molestias aspernatur
+          veniam provident repudiandae laboriosam?
+        </p>
+        <button id="okayBtn" class="okayBtn">Okay</button>
+      </div>
+    </div>
+
+    <div class=" "></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
