@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./bg.avif"),
+    linear-gradient(rgba(226, 7, 7, 0.5), rgba(255, 4, 4, 0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 40px;
+}
+.searchBtn,
+.searchField {
+  padding: 10px;
+  outline: none;
+  margin-top: 10px;
+}
+.searchField {
+  width: 350px;
+}
+.searchBtn {
+  cursor: pointer;
+  outline: none;
+}
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.weatherOf {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.color {
+  color: rgb(255, 145, 0);
+}

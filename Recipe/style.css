@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+body {
+  background-color: #1a1a1b;
+}
+.inputDiv {
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputDiv h2 {
+  color: #fff;
+  font-size: 70px;
+}
+input {
+  margin-top: 30px;
+  width: 500px;
+  padding: 20px;
+  outline: none;
+}
+#btn-search {
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 60px;
+}
+
+.product {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 8px;
+  margin: 10px 20px;
+}
+.product .content img {
+  text-align: center;
+  width: 330px;
+  margin-top: 5px;
+}
+.first-line {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-line a {
+  background-color: #dcdcdc;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #000000;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
