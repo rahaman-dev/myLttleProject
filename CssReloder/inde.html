@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Counters</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* .load {
+        border: 50px solid red;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-top: 56px solid white;
+        animation: rotate 2s linear infinite;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      } */
+      .loadSection {
+        width: 95vw;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .load {
+        border: 4px solid red;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-top: 3px solid white;
+        animation: rotate 2s linear infinite;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(350deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="counters"></div>
+    <div class="loadSection">
+      <div class="load"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
